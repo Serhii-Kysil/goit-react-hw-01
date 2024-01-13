@@ -8,6 +8,8 @@
 .profile {
   border: 2px solid #696969;
   border-radius: 8px;
+  width: 280px;
+  margin-bottom: 50px;
 }
 .description {
   background-color: #fff5ee;
@@ -19,7 +21,6 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
 }
 .name {
   font-weight: 700;

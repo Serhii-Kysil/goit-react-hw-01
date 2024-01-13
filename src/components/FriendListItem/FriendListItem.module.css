@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: #fff;
+}
+.name {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: black;
+  font-weight: 600;
+}
+.status {
+  color: black;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.online {
+  composes: status;
+  color: green;
+}
+.offline {
+  composes: status;
+  color: red;
+}

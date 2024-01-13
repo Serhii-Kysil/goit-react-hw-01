@@ -1,0 +1,15 @@
+.transactionHistory {
+  color: black;
+}
+.tHead {
+  color: white;
+  background-color: #292929 !important;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #292929;
+}
+.caption {
+  text-align: center;
+  width: 120px;
+}

@@ -1,0 +1,11 @@
+.item {
+  border: 1px solid #292929;
+  text-align: center;
+  font-weight: 400;
+}
+tr:nth-child(odd) {
+  background-color: white; /* фон нечетных строк */
+}
+tr:nth-child(even) {
+  background-color: gainsboro; /* фон четных строк */
+}
